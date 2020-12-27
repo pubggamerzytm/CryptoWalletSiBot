@@ -37,8 +37,8 @@ COMMAND_CONFIG = {
     'tip': {
         'usage': '/tip <@username> <amount> <ticker>',
     },
-    'p': {
-        'usage': '/p <ticker>',
+    'price': {
+        'usage': '/price <ticker>',
     },
     'admin': {
         'usage': '\n'.join([
