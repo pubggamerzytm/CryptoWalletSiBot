@@ -5,7 +5,7 @@ ADMINS = []
 
 # Message returned by the bot on /start command
 BOT_START_MESSAGE = """
-Hi, welcome to CryptoWalletSiBot.
+Hi, welcome to Crypto Tip Bot. This Bot is made By *@Bot_Creator_Dev*.You Can Contact Him to buy this bot.
 
 Supported coins:
     - LANA
@@ -24,19 +24,19 @@ Available commands:
 """
 
 # Telegram bot token
-TELEGRAM_TOKEN = 'changeme'
+TELEGRAM_TOKEN = '1441608551:AAFSLVPnnAqhjpY40dzjq2pBWfxaz66ikLc'
 
 # Minimum confirmed blocks when calculating account balances
 MINCONF = 1
 
 # Seconds you have to wait before sending next command to the bot
-COMMAND_THROTTLE_SECONDS = 3
+COMMAND_THROTTLE_SECONDS = 0.1
 
 # Available bot commands
-COMMANDS = ['start', 'balance', 'deposit', 'withdraw', 'tip', 'p', 'admin', 'test1']
+COMMANDS = ['start', 'balance', 'deposit', 'withdraw', 'tip', 'price', 'admin', 'test1']
 
 # Commands available in groups
-PUBLIC_COMMANDS = ['tip', 'p', 'captcha']
+PUBLIC_COMMANDS = ['tip', 'price', 'captcha']
 
 # Admin commands
 ADMIN_COMMANDS = ['admin']
